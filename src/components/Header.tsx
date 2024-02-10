@@ -1,10 +1,10 @@
 import { Filters } from './Filters.tsx'
 
-export function Header ({changeFilters}) {
+export function Header () {
     return (
         <header>
             <h1> Juguetes Online </h1>
-            <Filters onChange={changeFilters} />
+            <Filters />
         </header>
     )
 }
